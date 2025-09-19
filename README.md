@@ -1,24 +1,32 @@
-Netflix-Dupe
+# Netflix-Dupe
 
-A clone or replica of Netflix’s front-end interface built using React + Vite.
+A clone or replica of Netflix’s front-end interface built using **React + Vite**.
 
-🚀 Features
+---
 
-Responsive layout mimicking Netflix’s homepage design
+## 🚀 Features
 
-Navigation bar, hero section, movie/show listing cards
+* Responsive layout mimicking Netflix’s homepage design
+* Navigation bar, hero section, movie/show listing cards
+* Dynamic routing (if implemented) for different pages/components
+* Clean UI components and reusable styles
 
-Dynamic routing (if implemented) for different pages/components
+---
 
-Clean UI components and reusable styles
+## 🧰 Tech Stack
 
-🧰 Tech Stack
-Technology	Purpose
-React	Front-end UI library
-Vite	Bundler / dev server for fast refresh / build
-HTML / CSS (and maybe SCSS)	Layout, styling, responsive behavior
-JavaScript (ES6+)	Logic, component state if any
-📁 Project Structure
+| Technology                  | Purpose                                       |
+| --------------------------- | --------------------------------------------- |
+| **React**                   | Front-end UI library                          |
+| **Vite**                    | Bundler / dev server for fast refresh / build |
+| HTML / CSS (and maybe SCSS) | Layout, styling, responsive behavior          |
+| JavaScript (ES6+)           | Logic, component state if any                 |
+
+---
+
+## 📁 Project Structure
+
+```
 /Netflix-Dupe
 ├── src/
 │   ├── components/       # React components (Navbar, Card, etc.)
@@ -30,71 +38,77 @@ JavaScript (ES6+)	Logic, component state if any
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
 
-⚙️ Setup & Installation
+---
+
+## ⚙️ Setup & Installation
 
 To get this project running locally:
 
-Make sure you have Node.js (v14 or later) and npm / yarn installed.
+1. Make sure you have **Node.js** (v14 or later) and npm / yarn installed.
+2. Clone the repo:
 
-Clone the repo:
+   ```bash
+   git clone https://github.com/ranjit12103/Netflix-Dupe.git
+   ```
+3. Change into project directory:
 
-git clone https://github.com/ranjit12103/Netflix-Dupe.git
+   ```bash
+   cd Netflix-Dupe
+   ```
+4. Install dependencies:
 
+   ```bash
+   npm install
+   ```
 
-Change into project directory:
+   or
 
-cd Netflix-Dupe
+   ```bash
+   yarn
+   ```
+5. Run in development mode:
 
+   ```bash
+   npm run dev
+   ```
 
-Install dependencies:
+   or
 
-npm install
+   ```bash
+   yarn dev
+   ```
+6. Open your browser and go to `http://localhost:5173` (or the address Vite gives you) to view the app.
 
+---
 
-or
-
-yarn
-
-
-Run in development mode:
-
-npm run dev
-
-
-or
-
-yarn dev
-
-
-Open your browser and go to http://localhost:5173 (or the address Vite gives you) to view the app.
-
-🔧 Build & Deploy
+## 🔧 Build & Deploy
 
 To build for production:
 
+```bash
 npm run build
-
+```
 
 or
 
+```bash
 yarn build
+```
 
+This generates a `dist/` folder with the production-ready files.
 
-This generates a dist/ folder with the production-ready files.
+You can deploy the contents of `dist/` to any static host (Netlify, Vercel, GitHub Pages, etc.).
 
-You can deploy the contents of dist/ to any static host (Netlify, Vercel, GitHub Pages, etc.).
+---
 
-📝 To Do / Future Improvements
+## 📝 To Do / Future Improvements
 
-Implement authentication (Login / Signup)
+* Implement authentication (Login / Signup)
+* Add routing (e.g. show detail pages, categories, etc.)
+* Integrate external APIs (e.g. fetch data from a “movies/shows” API)
+* Make it fully responsive: mobile, tablet, desktop views
+* Add animations / transitions for cards / hover states
+* Improve performance (lazy loading images, code splitting)
 
-Add routing (e.g. show detail pages, categories, etc.)
-
-Integrate external APIs (e.g. fetch data from a “movies/shows” API)
-
-Make it fully responsive: mobile, tablet, desktop views
-
-Add animations / transitions for cards / hover states
-
-Improve performance (lazy loading images, code splitting)
