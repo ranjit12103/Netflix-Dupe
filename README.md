@@ -52,11 +52,13 @@ To get this project running locally:
    ```bash
    git clone https://github.com/ranjit12103/Netflix-Dupe.git
    ```
+
 3. Change into project directory:
 
    ```bash
    cd Netflix-Dupe
    ```
+
 4. Install dependencies:
 
    ```bash
@@ -68,6 +70,7 @@ To get this project running locally:
    ```bash
    yarn
    ```
+
 5. Run in development mode:
 
    ```bash
@@ -79,6 +82,7 @@ To get this project running locally:
    ```bash
    yarn dev
    ```
+
 6. Open your browser and go to `http://localhost:5173` (or the address Vite gives you) to view the app.
 
 ---
@@ -111,4 +115,3 @@ You can deploy the contents of `dist/` to any static host (Netlify, Vercel, GitH
 * Make it fully responsive: mobile, tablet, desktop views
 * Add animations / transitions for cards / hover states
 * Improve performance (lazy loading images, code splitting)
-
