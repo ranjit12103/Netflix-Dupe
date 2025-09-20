@@ -121,7 +121,7 @@ Push the branch and open a PR
 
 This project is licensed under the MIT License – feel free to use, modify, and share!
 
-👨‍💻 Author
+👨‍💻 Author:
 
 Ranjit Patil
 🔗 GitHub
