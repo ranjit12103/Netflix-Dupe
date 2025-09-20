@@ -1,48 +1,65 @@
-🎬 Netflix Dupe
+# Netflix-Dupe
 
-A Netflix Clone Web Application built with modern web technologies, featuring a sleek UI, authentication, and real-time movie data fetching. This project replicates the look, feel, and functionality of Netflix, offering a hands-on learning experience in full-stack development.
+A clone or replica of Netflix’s front-end interface built using **React + Vite**.
 
-🚀 Features
+---
 
-✅ User Authentication – Sign up, log in, and manage sessions securely
-✅ Browse Movies – Fetch real-time movie/TV data using TMDb API
-✅ Dynamic Player – Play trailers directly inside the app
-✅ Responsive UI – Optimized for desktop, tablet, and mobile
-✅ Favorites/Watchlist – Save and manage your favorite titles
-✅ Modern Tech Stack – Built with React, Firebase, and Tailwind
+## 🚀 Features
 
-🛠️ Tech Stack
+* Responsive layout mimicking Netflix’s homepage design
+* Navigation bar, hero section, movie/show listing cards
+* Dynamic routing (if implemented) for different pages/components
+* Clean UI components and reusable styles
 
-Frontend: React.js, React Router, Axios
+---
 
-Backend/Database: Firebase (Auth + Firestore)
+## 🧰 Tech Stack
 
-Styling: Tailwind CSS, Custom Components
+| Technology                  | Purpose                                       |
+| --------------------------- | --------------------------------------------- |
+| **React**                   | Front-end UI library                          |
+| **Vite**                    | Bundler / dev server for fast refresh / build |
+| HTML / CSS (and maybe SCSS) | Layout, styling, responsive behavior          |
+| JavaScript (ES6+)           | Logic, component state if any                 |
 
-API: The Movie Database (TMDb)
+---
 
-Deployment: Vercel / Netlify
+## 📁 Project Structure
 
-📸 Screenshots
-🔐 Login / Signup Page
+```
+/Netflix-Dupe
+├── src/
+│   ├── components/       # React components (Navbar, Card, etc.)
+│   ├── pages/            # Pages like Home, Login, Signup
+│   ├── assets/           # Images, icons, etc.
+│   ├── App.jsx           # Root component
+│   └── main.jsx          # Entry point for Vite
+├── public/               # Static files, index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
 
-(Insert screenshot here)
+---
 
-🎥 Home Page (Netflix-style UI)
+## ⚙️ Setup & Installation
 
-(Insert screenshot here)
+To get this project running locally:
 
-📺 Movie Player Page
+1. Make sure you have **Node.js** (v14 or later) and npm / yarn installed.
+2. Clone the repo:
 
-(Insert screenshot here)
+   ```bash
+   git clone https://github.com/ranjit12103/Netflix-Dupe.git
+   ```
 
-⚡ Installation & Setup
+3. Change into project directory:
 
-Clone the repo
+   ```bash
+   cd Netflix-Dupe
+   ```
 
-git clone https://github.com/ranjit12103/Netflix-Dupe.git
-cd Netflix-Dupe
-
+4. Install dependencies:
 
 Install dependencies
 
@@ -78,7 +95,7 @@ Run the project
 
 npm start
 
-📦 Folder Structure
+� Folder Structure
 Netflix-Dupe/
 │── public/              # Static files
 │── src/
@@ -93,7 +110,7 @@ Netflix-Dupe/
 │── package.json
 │── README.md
 
-🚧 Future Enhancements
+� Future Enhancements
 
 🔍 Search & Filter Movies
 
