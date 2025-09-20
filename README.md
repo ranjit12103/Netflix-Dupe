@@ -1,117 +1,128 @@
-# Netflix-Dupe
+🎬 Netflix Dupe
 
-A clone or replica of Netflix’s front-end interface built using **React + Vite**.
+A Netflix Clone Web Application built with modern web technologies, featuring a sleek UI, authentication, and real-time movie data fetching. This project replicates the look, feel, and functionality of Netflix, offering a hands-on learning experience in full-stack development.
 
----
+🚀 Features
 
-## 🚀 Features
+✅ User Authentication – Sign up, log in, and manage sessions securely
+✅ Browse Movies – Fetch real-time movie/TV data using TMDb API
+✅ Dynamic Player – Play trailers directly inside the app
+✅ Responsive UI – Optimized for desktop, tablet, and mobile
+✅ Favorites/Watchlist – Save and manage your favorite titles
+✅ Modern Tech Stack – Built with React, Firebase, and Tailwind
 
-* Responsive layout mimicking Netflix’s homepage design
-* Navigation bar, hero section, movie/show listing cards
-* Dynamic routing (if implemented) for different pages/components
-* Clean UI components and reusable styles
+🛠️ Tech Stack
 
----
+Frontend: React.js, React Router, Axios
 
-## 🧰 Tech Stack
+Backend/Database: Firebase (Auth + Firestore)
 
-| Technology                  | Purpose                                       |
-| --------------------------- | --------------------------------------------- |
-| **React**                   | Front-end UI library                          |
-| **Vite**                    | Bundler / dev server for fast refresh / build |
-| HTML / CSS (and maybe SCSS) | Layout, styling, responsive behavior          |
-| JavaScript (ES6+)           | Logic, component state if any                 |
+Styling: Tailwind CSS, Custom Components
 
----
+API: The Movie Database (TMDb)
 
-## 📁 Project Structure
+Deployment: Vercel / Netlify
 
-```
-/Netflix-Dupe
-├── src/
-│   ├── components/       # React components (Navbar, Card, etc.)
-│   ├── pages/            # Pages like Home, Login, Signup
-│   ├── assets/           # Images, icons, etc.
-│   ├── App.jsx           # Root component
-│   └── main.jsx          # Entry point for Vite
-├── public/               # Static files, index.html
-├── package.json
-├── vite.config.js
-└── README.md
-```
+📸 Screenshots
+🔐 Login / Signup Page
 
----
+(Insert screenshot here)
 
-## ⚙️ Setup & Installation
+🎥 Home Page (Netflix-style UI)
 
-To get this project running locally:
+(Insert screenshot here)
 
-1. Make sure you have **Node.js** (v14 or later) and npm / yarn installed.
-2. Clone the repo:
+📺 Movie Player Page
 
-   ```bash
-   git clone https://github.com/ranjit12103/Netflix-Dupe.git
-   ```
+(Insert screenshot here)
 
-3. Change into project directory:
+⚡ Installation & Setup
 
-   ```bash
-   cd Netflix-Dupe
-   ```
+Clone the repo
 
-4. Install dependencies:
+git clone https://github.com/ranjit12103/Netflix-Dupe.git
+cd Netflix-Dupe
 
-   ```bash
-   npm install
-   ```
 
-   or
+Install dependencies
 
-   ```bash
-   yarn
-   ```
+npm install
 
-5. Run in development mode:
 
-   ```bash
-   npm run dev
-   ```
+Setup Firebase
 
-   or
+Go to Firebase Console
 
-   ```bash
-   yarn dev
-   ```
+Create a project and enable Email/Password Authentication
 
-6. Open your browser and go to `http://localhost:5173` (or the address Vite gives you) to view the app.
+Copy your Firebase config into a .env file:
 
----
+REACT_APP_FIREBASE_API_KEY=your_api_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
+REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+REACT_APP_FIREBASE_APP_ID=your_app_id
 
-## 🔧 Build & Deploy
 
-To build for production:
+Get TMDb API Key
 
-```bash
-npm run build
-```
+Sign up at TMDb
 
-or
+Create a .env entry:
 
-```bash
-yarn build
-```
+REACT_APP_TMDB_API_KEY=your_tmdb_api_key
 
-This generates a `dist/` folder with the production-ready files.
 
-You can deploy the contents of `dist/` to any static host (Netlify, Vercel, GitHub Pages, etc.).
+Run the project
 
----
+npm start
 
-## 📝 To Do / Future Improvements
+📦 Folder Structure
+Netflix-Dupe/
+│── public/              # Static files
+│── src/
+│   ├── assets/          # Images, logos
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Page-level components
+│   ├── context/         # Auth & Global State
+│   ├── services/        # Firebase & API configs
+│   ├── App.js           # Root component
+│   └── index.js         # Entry point
+│── .env.example         # Example environment variables
+│── package.json
+│── README.md
 
-* Implement authentication (Login / Signup)
-* Add routing (e.g. show detail pages, categories, etc.)
-* Integrate external APIs (e.g. fetch data from a “movies/shows” API)
-* Make it fully responsive: mobile, tablet, desktop views
-* Add animations / transitions for cards / hover states
-* Improve performance (lazy loading images, code splitting)
+🚧 Future Enhancements
+
+🔍 Search & Filter Movies
+
+🌎 Multi-language Support
+
+⭐ Rating & Reviews
+
+🎞️ Auto-play Trailers
+
+👥 Multi-user Profiles
+
+🤝 Contributing
+
+Contributions are welcome! To contribute:
+
+Fork the repo
+
+Create a new branch (feature/your-feature)
+
+Commit changes
+
+Push the branch and open a PR
+
+📜 License
+
+This project is licensed under the MIT License – feel free to use, modify, and share!
+
+👨‍💻 Author
+
+Ranjit Patil
+🔗 GitHub
+ | LinkedIn
