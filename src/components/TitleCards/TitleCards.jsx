@@ -23,7 +23,7 @@ const options = {
 
 const handleWheel=(e)=>{
   e.preventDefault();
-  cardsRef.current.scrollLeft += event.deltaY;
+  cardsRef.current.scrollLeft += e.deltaY;
 }
 
 

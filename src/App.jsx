@@ -14,20 +14,23 @@ function AppRoutes() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // ✅ subscribe once
-    const unsubscribe = onAuthStateChanged(auth, (user) => {
-      if (user) {
-        console.log("Logged In");
+  const unsubscribe = onAuthStateChanged(auth, (user) => {
+    if (user) {
+      // ✅ Logged in: if currently on login page, go home
+      if (window.location.pathname === "/login") {
         navigate("/");
-      } else {
-        console.log("Logged Out");
-        navigate("/login");
+        console.log("Logged In");
       }
-    });
+    } else {
+      // ✅ Logged out: always send to login page
+      navigate("/login");
+      console.log("Logged Out");
+    }
+  });
 
-    // ✅ cleanup listener on unmount
-    return () => unsubscribe();
-  }, [navigate]);
+  return () => unsubscribe();
+}, [navigate]);
+
 
   return (
     <>

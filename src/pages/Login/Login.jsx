@@ -39,11 +39,11 @@ const user_auth = async(event)=>{
           {signState==="Sign Up"?<input value={name} onChange={(e)=>{setName(e.target.value)}} type='text' placeholder='Your Name' />:<></>}
           <input value={email} onChange={(e)=>{setEmail(e.target.value)}} type="email" placeholder=' Email' />
           <input value={password} onChange={(e)=>{setPassword(e.target.value)}} type="password" placeholder='Password' />
-          <button onClick={user_auth} type='submit'>{signState}</button>
+          <button type='submit'>{signState}</button>
           <div className="form-help">
             <div className="remember">
               <input type="checkbox" id="remember" />
-              <label htmlFor="">Remember me</label>
+              <label htmlFor="remember">Remember me</label>
             </div>
             <p>Need Help?</p>
           </div>
