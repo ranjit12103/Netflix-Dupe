@@ -57,14 +57,12 @@ Netflix-Dupe/
 ⚡ Installation & Setup
 Clone the repo
 
-bash
-Copy code
+
 git clone https://github.com/ranjit12103/Netflix-Dupe.git
 cd Netflix-Dupe
 Install dependencies
 
-bash
-Copy code
+
 npm install
 Setup Firebase
 
@@ -74,8 +72,6 @@ Create a project and enable Email/Password Authentication
 
 Copy your Firebase config into a .env file:
 
-env
-Copy code
 REACT_APP_FIREBASE_API_KEY=your_api_key
 REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
 REACT_APP_FIREBASE_PROJECT_ID=your_project_id
@@ -88,13 +84,11 @@ Sign up at TMDb
 
 Create a .env entry:
 
-env
-Copy code
+
 REACT_APP_TMDB_API_KEY=your_tmdb_api_key
 Run the project
 
-bash
-Copy code
+
 npm start
 🚧 Future Enhancements
 🔍 Search & Filter Movies
