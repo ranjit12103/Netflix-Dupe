@@ -56,8 +56,9 @@ Netflix-Dupe/
 │── README.md
 ```
 
-⚡ Installation & Setup
-Clone the repo
+⚡ Installation & Setup 
+
+**Clone the repo**
 
 
 git clone https://github.com/ranjit12103/Netflix-Dupe.git
