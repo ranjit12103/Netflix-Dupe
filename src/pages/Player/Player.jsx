@@ -1,5 +1,4 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable react-hooks/rules-of-hooks */
 import React, { useEffect, useState } from 'react'
 import '../Player/Player.css'
 import back_arrow_icon from '../../assets/images/back_arrow_icon.png'
