@@ -54,6 +54,8 @@ Netflix-Dupe/
 │── .env.example         # Example environment variables
 │── package.json
 │── README.md
+```
+
 ⚡ Installation & Setup
 Clone the repo
 
