@@ -21,10 +21,8 @@ export default function Navbar() {
       }
     };
 
-    // Attach scroll listener
     window.addEventListener("scroll", handleScroll);
 
-    // Cleanup on unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
